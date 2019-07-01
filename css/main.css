@@ -1,0 +1,25 @@
+.map {
+    display: inline-block;
+    width: 90%;
+    margin: 80px 5%;
+    border-left: 10px solid #333;
+    border-right: 10px solid #0F0;
+}
+    .map > .track {
+        display: inline-block;
+        width: 100%;
+        border-bottom: 2px solid #999;
+        margin: 40px 0;
+        position: relative;
+    }
+        .map > .track > img {
+            display: inline-block;
+            width: 200px;
+            margin-bottom: -5px;
+        }
+        .map > .track > .key {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: -5%;
+        }
